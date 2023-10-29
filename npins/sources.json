@@ -138,6 +138,18 @@
       "url": "https://api.github.com/repos/0e4ef622/wine-discord-ipc-bridge/tarball/v0.0.2",
       "hash": "161z7bykh2lj8gsi477qkdg570ygw316fxpdpnknj70igj47shqg"
     },
+    "wine-lutris-ge-lol": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "GloriousEggroll",
+        "repo": "wine-ge-custom"
+      },
+      "branch": "LoL-p8",
+      "revision": "9e0c32fc6f84bb7be405bfb77b0a1e9405953738",
+      "url": "https://github.com/GloriousEggroll/wine-ge-custom/releases/download/GE-LOL-p8-12/wine-lutris-ge-lol-p8-12-x86_64.tar.xz",
+      "hash": "0b0407qjd2vks9ngwz90gkbldf7ypa7qd6snj0mv0dz4cbmrcs0s"
+    },
     "wine-tkg": {
       "type": "Git",
       "repository": {

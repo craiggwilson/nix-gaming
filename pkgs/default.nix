@@ -91,6 +91,8 @@
 
       wine-ge = wineBuilder "wine-ge" "full" {};
 
+      wine-lutris-ge-lol = wineBuilder "wine-lutris-ge-lol" "base" {};
+
       wine-osu = wineBuilder "wine-osu" "base" {};
 
       wine-tkg = wineBuilder "wine-tkg" "full" {};

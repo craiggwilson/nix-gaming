@@ -53,6 +53,14 @@ in {
       meta = old.meta // {passthru.updateScript = ./update-wine-ge.sh;};
     });
 
+  wine-lutris-ge-lol =
+    (callPackage "${nixpkgs-wine}/pkgs/applications/emulators/wine/base.nix" (defaults
+      // {
+        pname = pnameGen "wine-lutris-ge-lol";
+        version = "p8-12";
+        src = pins.wine-lutris-ge-lol;
+      }));
+
   wine-tkg = callPackage "${nixpkgs-wine}/pkgs/applications/emulators/wine/base.nix" (lib.recursiveUpdate defaults
     rec {
       pname = pnameGen "wine-tkg";
